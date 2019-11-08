@@ -1,4 +1,4 @@
-.MainDiv{
+.MainDiv{ 
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -6,7 +6,7 @@
   padding: 2vmin 2vmin 2vmin 2vmin;
 }
 
-.cardAttr{
+.cardAttr{ /*style for the whole card*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -16,7 +16,7 @@
   width: 40vmin;
 }
 
-.cardInfoAttr{
+.cardInfoAttr{ /*style for card info*/
   background-color: rgba(200,200,200,0.6);
   margin: 10vmin 1vmin 1vmin 1vmin;
 }
@@ -32,6 +32,8 @@ h1{
   font-family: 'Seaweed Script', cursive;
   font-size: 20vmin;
 }
+
+/*tags created for inside the card*/
 h3{
   display: flex;
   justify-content: center;
