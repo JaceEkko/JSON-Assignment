@@ -1,0 +1,50 @@
+.MainDiv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: grey;
+  padding: 2vmin 2vmin 2vmin 2vmin;
+}
+
+.cardAttr{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 3vmin;
+  padding: 25vmin 0 0 0;
+  border: solid 10px;
+  width: 40vmin;
+}
+
+.cardInfoAttr{
+  background-color: rgba(200,200,200,0.6);
+  margin: 10vmin 1vmin 1vmin 1vmin;
+}
+
+body{
+  background-color: black;
+  color: white
+}
+h1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Seaweed Script', cursive;
+  font-size: 20vmin;
+}
+h3{
+  display: flex;
+  justify-content: center;
+  font-family: 'Spectral', serif;
+  text-shadow: 1px 1px black;
+}
+p{
+  font-family: 'Playfair Display SC', serif;
+  text-shadow: 1px 1px black;
+  margin: 0;
+}
+ul{
+  font-family: 'Playfair Display SC', serif;
+  text-shadow: 1px 1px black;
+  margin:0;
+}
