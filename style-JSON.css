@@ -1,4 +1,20 @@
-.MainDiv{ 
+.TitleDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-shadow: 2px 2px black;
+}
+.TitleDiv p{
+  margin-top: 2vmin;
+  margin-bottom: 7vmin;;
+  font-size: 5vmin;
+  background-color: rgba(200,200,200,0.6);
+}
+.TitleDiv img{
+  width: 20vmin;
+}
+
+.MainDiv{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -22,16 +38,24 @@
 }
 
 body{
-  background-color: black;
+  background-image: url("Images/Background.jfif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: white
 }
 h1{
-  display: flex;
-  justify-content: center;
   text-align: center;
   font-family: 'Seaweed Script', cursive;
   font-size: 20vmin;
 }
+h2{
+  font-size: 10vmin;
+  font-family: 'Seaweed Script', cursive;
+  margin-bottom: 1vmin;
+  text-shadow: 2px 2px black;
+}
+
 
 /*tags created for inside the card*/
 h3{
