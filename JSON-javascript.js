@@ -20,7 +20,7 @@ var card = [
   {
     "cardName" : "Reaper",
     "cardPic" : "url(Images/Reaper2.jfif)",
-    "cardType" : "Dark Caster",
+    "cardType" : "Caster",
     "HP" : "250",
     "Actions" : ["Possession", "Dark Hex", "Posion Slash"],
     "cardColor" : "Purple"
@@ -54,6 +54,10 @@ var card = [
 for(var i = 0; i < card.length; i++){
   createDeck(card[i]);
 }
+//Add "More to come"
+let mTC = document.createElement("H2");
+mTC.innerHTML = "More To Come";
+deckDiv.appendChild(mTC);
 
 function createDeck(cards){
   let cardBase = document.createElement("DIV");
