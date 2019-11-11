@@ -74,3 +74,9 @@ ul{
   text-shadow: 1px 1px black;
   margin:0;
 }
+
+@media screen and (max-width: 850px){
+  .MainDiv{
+    justify-content: center;
+  }
+}
