@@ -17,7 +17,7 @@
 .MainDiv{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: grey;
   padding: 2vmin 2vmin 2vmin 2vmin;
 }
